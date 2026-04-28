@@ -8,7 +8,7 @@ from google import genai
 from google.genai import types
 
 # Configure Gemini AI
-GEMINI_API_KEY = "AIzaSyAl9vy6_u3PWIGjN6oCY4tyeq0WGYbXsSM"
+GEMINI_API_KEY = "ENTER_YOUR_GEMINI_KEY"
 gemini_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 
